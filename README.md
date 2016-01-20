@@ -30,25 +30,25 @@ Easy constructor game roulette
 ```
 
 ##Options
-<code>cell</code> - number of cells
-<code>stopCell</code> - 
-<code>visibleCell</code> - visible cells
-<code>duration</code> - duration run in seconds
-<code>easing</code> - animate easings transition
-<code>wrapperClass</code> - add custom class to container
-<code>insert</code> - where to insert (jQuery object)
+<code>cell</code> - number of cells<br>
+<code>stopCell</code> - number of cells before the ends<br>
+<code>visibleCell</code> - visible cells<br>
+<code>duration</code> - duration run in seconds<br>
+<code>easing</code> - animate easings transition<br>
+<code>wrapperClass</code> - add custom class to container<br>
+<code>insert</code> - where to insert (jQuery object)<br>
 <code>callback</code> - callback function after end game
 
 
 ##Public methods
-<code>instance.render()</code> - render HTML current game
-<code>instance.start()</code> - start current game
-<code>instance.push({} || [{}, {}])</code> - push items in storage
-<code>instance.remove(index)</code> - remove item from storage
-<code>instance.getBank()</code> - get current bank
-<code>instance.getStorage()</code> - get storage bank
-<code>instance.getWinner()</code> - get last winner
-<code>instance.clearStorage()</code> - clear storage
+<code>instance.render()</code> - render HTML current game<br>
+<code>instance.start()</code> - start current game<br>
+<code>instance.push({} || [{}, {}])</code> - push items in storage<br>
+<code>instance.remove(index)</code> - remove item from storage<br>
+<code>instance.getBank()</code> - get current bank<br>
+<code>instance.getStorage()</code> - get storage bank<br>
+<code>instance.getWinner()</code> - get last winner<br>
+<code>instance.clearStorage()</code> - clear storage<br>
 <code>instance.clearBank()</code> - clear bank
 
 
